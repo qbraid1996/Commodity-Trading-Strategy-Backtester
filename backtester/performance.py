@@ -8,7 +8,7 @@ def compute_and_print_performance_metrics(portfolios, labels=None, price_data=No
     Calcule et affiche les métriques de performance pour une liste de portfolios.
     portfolios: liste de DataFrames
     labels: liste de noms pour les stratégies
-    price_data : DataFrame avec colonne 'Close' pour calculer Buy & Hold (optionnel)
+    price_data : DataFrame avec colonne 'Close' pour calculer Buy & Hold
     risk_free_rate: taux sans risque annuel (défaut 2%)
     Retourne une liste de dicts de métriques.
     """
